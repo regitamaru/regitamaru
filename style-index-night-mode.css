@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: "Monserrat";
+    background-color: #000000;opacity: 80%;
+}
+
+/* Navigation */
+
+.nav-container {
+    background:#000000; opacity: 80%;
+    height: 147px;
+}
+
+.wrapper {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Header */
+
+.header-container {
+    background:#000000; opacity: 80%;
+    display: flex;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1440px;
+    height: 116px;
+    left: 0px;
+    top: 159px;
+}
+
+header hi {
+    left: 8.89%;
+    right: 57.85%;
+    top: 26.72%;
+    bottom: 31.03%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+/* Subheader */ 
+
+.subheader-container {
+    background: #000000; opacity: 80%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.subheader {
+    display: flex;
+}
+
+.profile-picture {
+    left: 5%;
+    right: 91.71%;
+    top: 3%;
+    bottom: 0%;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+
+.profile-picture hi {
+    left: 15%;
+    right: 39.27%;
+    top: 0%;
+    bottom: 0%;
+    margin: 20px;
+}
+
+.profile-picture lis {
+    list-style: none;
+    left: 80%;
+    margin-left: 10px;
+    align-items: center;
+}
+
+/* Posting-Feed */
+
+.posting-feed {
+    background: #000000; opacity: 80%;
+    margin-top: 50px;
+}
+
+post-web-section {
+    background:#000000; opacity: 80%;
+}
