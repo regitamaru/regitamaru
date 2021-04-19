@@ -92,7 +92,7 @@ header hi {
     list-style: none;
     left: 80%;
     margin-left: 10px;
-    align-items: center
+    align-items: center;
 }
 
 /* Posting-Feed */
@@ -104,4 +104,72 @@ header hi {
 
 post-web-section {
     background: #FFFFFF;
+}
+
+.remoview-header {
+    width: 1308px;
+    height: 394px;
+    left: 66px;
+    top: 163px;
+}
+
+
+/* .remoview-header-container holding the image and the text */
+<
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+    align-items: center;
+}
+
+.container img{
+    align-items: center;
+}
+
+.text-description {
+    position: absolute;
+    top: 200px;
+    left: 121px;
+    transition: all 0.4s;
+}
+
+.text-style {
+    padding-top: 10px;
+    font-size: 30px; 
+    color:black;
+}
+
+.text-bold-style {
+  font-weight: bold;
+  font-size: 100px;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.garis-horizontal {
+    color: black;
+    position: absolute;
+    left: 80px;
+    top: 360px;
+}
+
+.garis-vertikal {
+    color: black;
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -50px;
+    top: 220px;
+}
+
+.card {
+    border-style: solid;
+    background: #E4E4E4;
+}
+
+.poster-film {
+    max-width: 100%;
+    height: 384px;
+    width: 259px;
+    image-resolution: 720px;
 }
